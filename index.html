@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fullscreen Image</title>
+  <style>
+    /* Remove any margin and padding, make sure the image takes full screen */
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    /* Make the image cover the entire screen */
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <img src="https://pbs.twimg.com/media/GaGi7qnXQAAmxGM?format=jpg&name=4096x4096" alt="Fullscreen Image">
+</body>
+</html>
